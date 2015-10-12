@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Registro 2</title>
+	<link rel="stylesheet" type="text/css" href="estilos/styles.css">
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/funcionesjquery.js"></script>
+	<meta name="author" content="Victor Lana">
+	<meta name="description" content="Formulario de registro de usuarios">
+	<meta name="keywords" content="Registro, nombre, email">
+	</head>
+	
+	<body>
+	<div id="registro1">
+		<h3>Registro</h3>
+	</div>
+	<div id="container">
+		<p id="textCampos"></p>
+		<form id="registro" name="registro">
+		<table>
+		<tr>
+			<td width="40%">Nombre y apellidos (*):</td>
+			<td><input type="text" name="nombreyApellidos" placeholder="Nombre y Apellidos" size="20em"  
+			pattern="([a-zA-Z][a-zA-Z]*) ([a-zA-Z][a-zA-Z]*) ([a-zA-Z][a-zA-Z]*)" title="Nombre  PrimerApellido SegundoApellido" required></input></td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td width="100%" id="textNombre"></td>
+		</tr>
+		<tr>
+			<td>Direcci&oacuten de correo (*):</td>
+			<td><input type="text" name="correoElectronico" placeholder="Correo electr&oacute;nico" 
+			pattern="^([a-z][a-z]*)[0-9]{3}@ikasle.ehu.(es|eus)$" title="Inicial Nombre + Primer Apellido + 3 Numeros + @ikasle.ehu.(eus/es)" required></input></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td id="textCorreo"></td>
+		</tr>
+		<tr>
+			<td>Password (*):</td>
+			<td><input type="password" name="password" pattern=".{6,}" placeholder="Password" title="El password debe tener al menos 6 caracteres" required></input></input></td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td id="textPassword"></td>
+		</tr>
+		<tr>
+			<td>N&uacutemero de tel&eacutefono (*):</td>
+			<td><input type="text" name="numTelefono" placeholder="Tel&eacute;fono" pattern=".{9,}" maxlength="9" pattern="([0-9]*){9}" 
+			title="Introduzca un numero de telefono valido (9 digitos)" required></input></td>
+			
+		</tr>
+		<tr>
+			<td></td>
+			<td width="100%" id="textTelefono"></td>
+		</tr>
+		<tr id="trEsp">
+			<td>Especialidad (*):</td>
+			<td>
+				<select name="Especialidad" id="especialidad" width="35em">
+					<option value="1" selected>Ingenier&iacutea del Software</option>
+					<option value="2">Ingenier&iacutea de Computadores</option>
+					<option value="3">Computaci&oacuten</option>
+					<option value="4">Otra</option>
+				</select>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Tecnolog&iacuteas y herramientas en las que est&aacutes interesado:</td>
+			<td><textarea name="texto" cols="30em" placeholder="Tecnolog&iacute;as y herramientas"></textarea></td>
+		</tr>
+		<tr>
+			<td>Selecciona una foto para tu perfil (max 1 MB):</td>
+			<td><input type="file" id="select_image" name="image" accept="image/*" onchange="putImage()"/></td>
+			<td><p id="textTamImagen"></p></p></td>
+		</tr>
+		 <tr id="trImagen">
+		 	<!--<td></td>-->
+		    <td id ="tablafoto" colspan="2"><img id="target" src="" alt=""></td>
+		</tr>
+		<tr>
+			<td id="tdSubmit" colspan="2"><input type="submit" id="inputSubmit" value="Enviar"></input></td>
+		</tr>
+		
+		</table>
+
+			
+		</form>
+		
+	</div>
+	</body>
+</html>

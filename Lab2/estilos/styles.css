@@ -1,0 +1,48 @@
+h1, h3{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.same-width{
+    width:30em; !important;
+}
+
+#container{
+    width: 50em;
+    height: 22em;
+    background-color: #CEF6EC;
+    border: 0.2em solid black;
+    font-size: 0.9em;
+    border-radius: 0.2em;
+	position: relative; /* */
+	margin-top: 2em; 
+	margin-right: auto; 
+	margin-left: auto;
+	}
+
+
+#inputSubmit{
+	margin-top: 2em;
+	margin-left: 16.5em;
+	margin-left: 16.5em;
+    width: 17em;
+    height: 2.5em;
+    background-color: yellow;
+    border: 0.2em solid black;
+    border-radius: 0.5em;
+}
+
+#registro1{
+	width: 50em;
+    height: 4em;
+    background-color: #CEF6EC;
+    border: 1px solid black;
+    font-size: 1em;
+    border-radius: 0.2em;
+    margin-right: auto; 
+	margin-left: auto;
+	margin-top: 1em;
+}
