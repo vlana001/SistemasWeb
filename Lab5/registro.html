@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="estilos/styles.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/funcionesjquery.js"></script>
+	<!--<script src="js/jscript.js"></script>-->
+	<meta name="author" content="Victor Lana">
+	<meta name="description" content="Formulario de registro de usuarios">
+	<meta name="keywords" content="Registro, nombre, email">
+	</head>
+	
+	<body>
+	<div id="registro1">
+		<h3>Registro</h3>
+	</div>
+	<div id="container">
+		<p id="textCampos"></p>
+		<form id="registro" name="registro" onsubmit="return verificar()" action="php/Registrar.php" method="POST">
+			<table>
+			<tr>
+				<td width="40%">Nombre y apellidos (*):</td>
+				<td><input type="text" name="nombreyApellidos" placeholder="Nombre y Apellidos" size="20em"></input></td>	
+			</tr>
+			<tr>
+				<td></td>
+				<td width="100%" id="textNombre"></td>
+			</tr>
+			<tr>
+				<td>Direcci&oacuten de correo (*):</td>
+				<td><input type="text" name="correoElectronico" placeholder="Correo electr&oacute;nico"></input></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td id="textCorreo"></td>
+			</tr>
+			<tr>
+				<td>Password (*):</td>
+				<td><input type="password" name="password" onkeydown="verPassword()" placeholder="Password"></input></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td id="textPassword"></td>
+			</tr>
+			<tr>
+				<td>N&uacutemero de tel&eacutefono (*):</td>
+				<td><input type="text" name="numTelefono" maxlength="9" placeholder="Tel&eacute;fono"></input></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td width="100%" id="textTelefono"></td>
+			</tr>
+			<tr>
+				<td>Especialidad (*):</td>
+				<td>
+					<select name="Especialidad" width="35em" onchange="comprobarEsp(this)">
+						<option value="1" selected>Ingenier&iacutea del Software</option>
+						<option value="2">Ingenier&iacutea de Computadores</option>
+						<option value="3">Computaci&oacuten</option>
+						<option value="4">Otra</option>
+					</select>
+				</td>
+				<td id="textEspecialidad"></td>
+			</tr>
+			<tr>
+				<td>Tecnolog&iacuteas y herramientas en las que est&aacutes interesado:</td>
+				<td><textarea name="texto" cols="30em" placeholder="Tecnolog&iacute;as y herramientas"></textarea></td>
+			</tr>
+			<tr>
+				<td>Selecciona una foto para tu perfil (max 1 MB):</td>
+				<td><input type="file" id="select_image" name="image" accept="image/*" onchange="putImage()"/></td>
+				
+			</tr>
+			<tr>
+				<td></td>
+				<td><p id="textTamImagen"></p></td>
+			</tr>
+
+			 <tr id="trImagen">
+			 	<!--<td></td>-->
+			    <td id ="tablafoto" colspan="2"><img id="target" src="" alt=""></td>
+			</tr>
+			<tr>
+				<td id="tdSubmit" colspan="2"><input type="submit" id="inputSubmit" value="Enviar"></input></td>
+			</tr>
+			</table>	
+		</form>	
+	</div>
+	</body>
+</html>
