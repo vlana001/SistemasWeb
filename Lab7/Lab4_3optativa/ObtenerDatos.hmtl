@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Buscar por correo</title>
+	<meta name="author" content="Victor Lana">
+	<meta name="description" content="Buscar por correo">
+	<meta name="keywords" content="Buscar, correo, telefono">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="./js/datos.js"></script>
+</head>
+
+<body>
+	<!-- Incluimos el fichero usuarios.xml -->
+	<object id="datos" data="./xml/usuarios.xml" type="text/xml" style="display:none"></object>
+	<h1 id="encabezado1">Buscar datos por correo</h1>
+			<form id="form1" method="post">			    
+			    	<h3 id="titulo3">Inserte un correo</h3>
+			    		<p id="mensaje" style="color: red;"></p>
+			    		<table id="tabla2">
+			        		<tr id="tr2">
+			        			<td id="tr1">
+			        				<input placeholder="Correo" type="text" id="correo" name="correo" maxlength="40" required></input>
+								</td>
+			        		</tr>
+			        		<tr>
+			        			<td>
+			        				<button type="button" id="submit1" onclick="data();">Buscar</input>
+			        			</td>
+			        		</tr>
+			        	</table>
+			        	
+			        	<table id="tabla1">
+	  						<tr>
+		     					<td class="td1">Nombre:</td>
+		     					<td class="td2"><div id="nombre"></div></td>
+		     				</tr>
+		     				<tr>
+						     	<td class="td1">Apellido 1:</td>
+								<td  class="td2"><div id="apellido1"></div></td>
+						     </tr>
+						     <tr>
+						     	<td class="td1">Apellido 2:</td>
+						     	<td class="td2"><div id="apellido2"></div></td>
+						     </tr>
+						     <tr>
+						     	<td class="td1">Tel&eacute;fono:</td>
+						     	<td class="td2"><div id="telefono"></div></td>
+						     </tr>
+				  		</table>
+			</form>
+</body>

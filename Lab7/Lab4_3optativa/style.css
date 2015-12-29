@@ -1,0 +1,68 @@
+body { text-align: center; font-size: 14px; }
+#encabezado1{
+	text-align: center;
+}
+
+#form1{
+	border: 1px solid black;
+	margin: 1.5em auto auto auto;
+	padding: 1em 1.5em 1.5em 1.5em;
+	width: 30em;
+	background-color: #A9F5D0;
+}
+
+
+#titulo3{
+	text-align: center;
+	font-size: 2em;
+	color:
+}
+
+#correo{
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+	width: 20em;
+	height: 2.5em;
+}
+
+#tr1, #tr2{
+	margin-right: auto;
+	margin-left: auto;
+	padding-right:auto;
+}
+
+#submit1{
+	background-color: #5858FA;
+	width:10em;
+	height: 2.5em;
+	color: white;
+	border-radius: 0.4em ;
+	border: 1px solid #5858FA;
+}
+
+
+#tabla2{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tabla1{
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	border: 1px solid #4078C0;
+}
+
+.td1{
+	font-weight: bold;
+	text-align:left;
+	width:30%;
+}
+
+.td2{
+	text-align:left;
+	font-family: Arial;
+}

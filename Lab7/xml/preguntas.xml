@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItems>
+	<assessmentItem complexity="2" subject="Web">
+		<itemBody>
+			<p>Tag HTML para añadir un formulario</p>
+		</itemBody>
+		<correctResponse>
+			<value>
+				FORM
+			</value>
+		</correctResponse>
+	</assessmentItem>
+		<assessmentItem complexity="4" subject="Internet">
+		<itemBody>
+			<p>Este protocolo acabará funcionando 
+			incluso entre dos latas unidas por un cordón</p>
+		</itemBody>
+		<correctResponse>
+			<value>
+				TCP/IP
+			</value>
+		</correctResponse>
+	</assessmentItem>
+<assessmentItem complexity="0" subject="Informatica"><itemBody><p>a</p></itemBody><correctResponse><value>a</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>e</p></itemBody><correctResponse><value>e</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>a</p></itemBody><correctResponse><value>a</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>s</p></itemBody><correctResponse><value>s</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>q</p></itemBody><correctResponse><value>q</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>a</p></itemBody><correctResponse><value>s</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>s</p></itemBody><correctResponse><value>s</value></correctResponse></assessmentItem><assessmentItem complexity="5" subject="Informatica"><itemBody><p>d</p></itemBody><correctResponse><value>d</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>r</p></itemBody><correctResponse><value>r</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="Informatica"><itemBody><p>q</p></itemBody><correctResponse><value>q</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="q"><itemBody><p>q</p></itemBody><correctResponse><value>q</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="x"><itemBody><p>x</p></itemBody><correctResponse><value>x</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="x"><itemBody><p>x</p></itemBody><correctResponse><value>x</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="a"><itemBody><p>a</p></itemBody><correctResponse><value>a</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="s"><itemBody><p>s</p></itemBody><correctResponse><value>s</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="b"><itemBody><p>b</p></itemBody><correctResponse><value>b</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="d"><itemBody><p>d</p></itemBody><correctResponse><value>d</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="d"><itemBody><p>d</p></itemBody><correctResponse><value>d</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="d"><itemBody><p>d</p></itemBody><correctResponse><value>d</value></correctResponse></assessmentItem><assessmentItem complexity="0" subject="d"><itemBody><p>d</p></itemBody><correctResponse><value>d</value></correctResponse></assessmentItem></assessmentItems>

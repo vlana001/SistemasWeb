@@ -1,0 +1,267 @@
+body { text-align: center; font-size: 14px; }
+#encabezado1{
+	text-align:center;
+	font-size: 3em;
+	margin-bottom: 0%;
+}
+
+#loginsubmit{
+	text-align: center;
+	position: relative;
+	width:9em;
+	
+}
+
+#loginsubmitbtn{
+	width:12em;
+	height:2em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	background-color: #ff3333 ;
+  	font-weight: bold;
+  	color: white;
+  	border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+#loginsubmitbtn:hover{
+	background-color: #ff4d4d;
+}
+
+#login, #insertar{ 
+	position:relative;
+	text-align:center;
+	margin: 5em auto 0em auto;
+	display: inline-block;
+}
+
+#thead{
+	background-color: #E1F5A9;
+	height:2em;
+	width: 25em;
+	border-bottom: 1px solid black;
+	border-top-right-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+}
+
+#tdnombre{
+	padding-top: 1em;
+	
+	
+}
+
+#tmessage{
+	
+	font-size: 1em;
+}
+
+#tabla1{
+	border: 1px solid black;
+	border-radius: 0.5em;
+	padding-top: 1auto;
+	margin-top: 0%;
+	padding-left:0em;
+	height: 10em;
+}
+
+#input1
+{
+	height: 1.7em;
+	
+}
+
+#select1{
+	width:60%;
+}
+
+#preguntasubmitbtn1, #preguntasubmitbtn2
+{
+	width:12em;
+	height:3em;
+	
+	margin-top: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	background-color: #D0A9F5 ;
+  	font-weight: bold;
+  	color: white;
+  	border-radius: 0.4em 0.4em 0.4em 0.4em;
+}
+
+#preguntasubmitbtn1:hover, #preguntasubmitbtn2:hover{
+	background-color: #F6CEEC;
+}
+
+#fila1{
+	width:20%;
+	font-size:1.2em;
+	margin-left:0em;
+	padding-top: 0em;
+	padding-left: 0.2em;
+	text-align:left;
+}
+
+#texta1
+{
+	margin-top:1.2em;
+}
+
+#textarea1, #textarea2, #textarea3
+{
+	margin-top: 1.2em;
+	margin-right: 3em;
+}
+
+
+
+#tme
+{
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	text-align:center;
+	color: red;
+}
+
+#tm2
+{
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	padding-right: 0em;
+	text-align:center;
+	color: red;
+}
+
+/*Links*/
+#linkregister
+{
+	text-align: center;
+}
+
+#link1
+{
+	text-decoration: none;
+}
+
+#link1:hover
+{
+	text-decoration: underline;
+}
+
+#link2
+{
+	text-decoration: none;
+}
+
+#link2:hover
+{
+	text-decoration: underline;
+}
+
+
+#linkLogout
+{
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 1px solid black;
+	
+	text-align: left ;
+	margin-right: 0em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	
+	color: white;
+	background-color: #5882FA;
+	font-family: Arial;
+}
+
+
+#theadp
+{
+	border-right: 1em;
+}
+
+#tablaleft
+{
+	border-right: 1px;
+}
+
+
+#tmessageError
+{
+	font-size: 1em;
+	color: red;
+}
+
+#tmessageCorrecto
+{
+	font-size: 1em;
+	color: green;
+}
+
+/*Tabla preguntas*/
+#tablapreguntas {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 5em 15em auto 15em;
+}
+
+#tablapreguntas td, #tablapreguntas th {
+    border: 1px solid black;
+    padding: 1em 1em 1em 1.5em;
+}
+
+#tablapreguntas th {
+    font-size: 2em;
+    padding-top: 0.1em;;
+    padding-bottom: 0.1em;
+    
+    text-align: center;
+    color: black;
+    background-color: #E1F5A9;
+}
+
+
+
+#tablapreguntas tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+
+#th1
+{
+	text-align: center;
+	color: black;
+	width: 80%;
+}
+
+#th2
+{
+	text-align: center;
+	color: black;
+	width: 20%;
+}
+
+#td1 {
+   
+    font-size: 1em;
+    text-align: left;
+    padding: 1em 1em 1em 1.5em;
+}
+
+#td2{
+	
+	font-size: 1em;
+	text-align: center;
+}
+
+#preguntas{
+	text-align: right;
+	margin-top: 2em;
+}
+
+.totalPreguntas
+{
+	color: blue;
+}
+
+
