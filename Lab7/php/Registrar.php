@@ -25,7 +25,7 @@
 
 	//En hostinger
 	$host = "mysql.hostinger.es";
-	$user = "u697091525_quiz";
+	$user = "u697091525_vlana";
 	$password = "password1212";
 	$dbname = "u697091525_quiz";
 
